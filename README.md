@@ -4,7 +4,7 @@ Eleventy Duo is a minimal and beautiful Eleventy theme for personal blogs.
 
 ![demo site screenshot](./screenshot.png)
 
-### [Live demo](https://eleventyduo.netlify.app)
+### [Live demo](https://c-design-patterns.netlify.app/)
 
 ## Features
 
