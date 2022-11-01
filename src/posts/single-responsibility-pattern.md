@@ -9,6 +9,8 @@ description: Every class, module, or function in a program should have one respo
   to change
 
 ---
+Every class, module, or function in a program should have one responsibility/purpose in a program. As a commonly used definition, "every class should have only one reason to change
+
     using System;
     using System.Collections.Generic;
     using System.Diagnostics;
@@ -84,3 +86,5 @@ description: Every class, module, or function in a program should have one respo
         }
       }
     }
+
+asd
