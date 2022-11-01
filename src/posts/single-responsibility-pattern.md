@@ -21,6 +21,16 @@ That might not seem like a big deal, but it also affects all classes or componen
 
 In the end, you need to change your class more often, and each change is more complicated, has more side-effects, and requires a lot more work than it should have. So, it’s better to avoid these problems by making sure that each class has only one responsibility.
 
+## A Simple Question to Validate Your Design
+
+Unfortunately, following the single responsibility principle sounds a lot easier than it often is.
+
+If you build your software over a longer period and if you need to adapt it to changing requirements, it might seem like the easiest and fastest approach is adding a method or functionality to your existing code instead of writing a new class or component. But that often results in classes with more than responsibility and makes it more and more difficult to maintain the software.
+
+You can avoid these problems by asking a simple question before you make any changes: What is the responsibility of your class/component/microservice?
+
+If your answer includes the word “and”, you’re most likely breaking the single responsibility principle. Then it’s better to take a step back and rethink your current approach. There is most likely a better way to implement it.
+
     using System;
     using System.Collections.Generic;
     using System.Diagnostics;
@@ -97,4 +107,4 @@ In the end, you need to change your class more often, and each change is more co
       }
     }
 
-asd
+The example above explains how we can write our code in away where each class only has to focus on one responsibility
