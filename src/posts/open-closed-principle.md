@@ -179,4 +179,6 @@ Meaning we should not have to edit the original class add add functionality to i
 
 ### Specification Pattern
 
+the **specification pattern** is a particular [software design pattern](https://en.wikipedia.org/wiki/Software_design_pattern "Software design pattern"), whereby [business rules](https://en.wikipedia.org/wiki/Business_rules "Business rules") can be recombined by chaining the business rules together using [boolean logic](https://en.wikipedia.org/wiki/Boolean_algebra "Boolean algebra"). The pattern is frequently used in the context of [domain-driven design](https://en.wikipedia.org/wiki/Domain-driven_design "Domain-driven design").
+
 ![Open-Closed-Principle](/images/ocp.png "OCP")
