@@ -9,3 +9,4 @@ description: Every class, module, or function in a program should have one respo
   to change
 
 ---
+    <script src="https://gist.github.com/CodeNameNinja/9d870b7d52345cabb48ce52741ca50f5.js"></script>
