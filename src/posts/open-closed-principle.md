@@ -8,9 +8,9 @@ description: software entities (classes, modules, functions, etc.) should be ope
   for extension, but closed for modification
 
 ---
-Software entities (classes, modules, functions, etc.) should be open for extension, but closed for modification
+Software entities (classes, modules, functions, etc.) should be open for extension, but closed for modification.
 
-![Open-Closed-Principle](/images/ocp.png "OCP")
+Meaning we should not have to edit the original class add add functionality to it, we should be able to implement an interface in a new class add functionality that way.
 
     using System;
     using System.Collections.Generic;
@@ -177,4 +177,6 @@ Software entities (classes, modules, functions, etc.) should be open for extensi
       }
     }
 
-asdasd
+### Specification Pattern
+
+![Open-Closed-Principle](/images/ocp.png "OCP")
