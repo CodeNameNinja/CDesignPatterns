@@ -20,4 +20,5 @@ fields:
   default: posts/{{ title | slug }}/index.html
   hidden: true
 pages:
+- src/posts/open-closed-principle.md
 - src/posts/single-responsibility-pattern.md
