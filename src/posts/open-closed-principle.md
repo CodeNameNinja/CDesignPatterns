@@ -10,7 +10,7 @@ description: software entities (classes, modules, functions, etc.) should be ope
 ---
 Software entities (classes, modules, functions, etc.) should be open for extension, but closed for modification
 
-![](/images/ocp.png "OCP")
+![Open-Closed-Principle](/images/ocp.png "OCP")
 
     using System;
     using System.Collections.Generic;
@@ -176,6 +176,5 @@ Software entities (classes, modules, functions, etc.) should be open for extensi
         }
       }
     }
-    
 
 asdasd
